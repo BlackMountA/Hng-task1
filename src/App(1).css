@@ -93,3 +93,29 @@ border-radius: 20px;
   line-height: 28px;
   color: #101828;
   }
+
+.social-section{
+  margin: 24px auto 64px auto;
+  background-color: orange;
+width: 85%;
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
+.social-icons{
+  text-align: center;
+  width: 94%;
+  background-color: blue;
+  margin:auto;
+}
+.slacklogo{
+  width: 24px;
+height: 24px;
+border-radius: 50%;
+
+}
+.githublogo{
+  width: 24px;
+height: 24px;
+border-radius: 50%;
+}

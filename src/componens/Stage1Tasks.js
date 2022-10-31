@@ -1,10 +1,10 @@
-// import Button from './Buttons';btn__zuri
-
-
+// import Button from './Butt
+import slacklogo from './Slacklogo.jpg'
+import githublogo from './Githublogo.jpg'
 const stage1Tasks = () => {
   return (
     <>
-    <div className='main-section'>
+    <section className='main-section'>
     <div className='profile-section'>
     <div className='profile__img'>
     </div>
@@ -33,17 +33,14 @@ const stage1Tasks = () => {
       
     
     </div>
-    </div>
+    </section>
     
-    <div className='social-section'>
-      <div className='Container'>
-        <div className='Content'>
-          <div className='Social-icons'>
-
+    <section className='social-section'>
+          <div className='social-icons'>
+            <img src={slacklogo} className="slacklogo" alt='Slack Logo'/>
+            <img src={githublogo} className="githublogo" alt='Github logo'/>
           </div>
-        </div>
-      </div>
-    </div>
+    </section>
     </>
   )
 }
