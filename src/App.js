@@ -1,6 +1,6 @@
 
-import Footer from './componens/Footer';
-import Stage1Tasks from './componens/Stage1Tasks';
+import Footer from './components/Footer';
+import Stage1Tasks from './components/Stage1Tasks';
 import './App(1).css';
 
 function App() {

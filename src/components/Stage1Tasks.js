@@ -19,9 +19,6 @@ const stage1Tasks = () => {
       {/* <div id="slack">
       @adewoynaanuoluwapoo
       </div> */}
-      
-    
-    
     </div>
     <div className='link-section'>
        <a href="https://twitter.com/adewoyinaanuol1" id="links"><div className="frame5"><p className="text">Twitter Link</p></div></a>
@@ -37,8 +34,11 @@ const stage1Tasks = () => {
     
     <section className='social-section'>
           <div className='social-icons'>
-            <img src={slacklogo} className="slacklogo" alt='Slack Logo'/>
-            <img src={githublogo} className="githublogo" alt='Github logo'/>
+          <a href='slack.com'><img src={slacklogo} className="slacklogo" alt='Slack Logo'/></a>
+
+          <a href='github.com'><img src={githublogo} className="githublogo" alt='Github logo'/></a>
+            
+            
           </div>
     </section>
     </>
