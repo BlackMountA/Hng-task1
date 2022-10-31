@@ -1,16 +1,16 @@
 
 import Footer from './components/Footer';
 import Stage1Tasks from './components/Stage1Tasks';
-import './App(1).css';
+import './Style.css';
 
 function App() {
   
   return (
     <body>
-    <section className="stage1tasks"> 
-    <Stage1Tasks />
-    </section>
-    <Footer />
+      <section className="stage1tasks"> 
+        <Stage1Tasks />
+      </section>
+      <Footer />
     </body>
   );
 }
