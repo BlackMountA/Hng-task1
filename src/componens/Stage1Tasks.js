@@ -5,25 +5,24 @@ const stage1Tasks = () => {
   return (
     <>
     <div className='main-section'>
-    <div className='main-section__content' >
-    <div className='profile-section' >
+    <div className='profile-section'>
     <div className='profile__img'>
     </div>
+    <div className="avatar-share-button">
+        <div className="icon" ></div>
+        </div>
+
     <div className="twitter"> 
     <p className="twitter__text">@adewoyinaanuol1</p>
     </div>
+
       {/* <div id="slack">
       @adewoynaanuoluwapoo
       </div> */}
-      <div className="avatar-share-button" >
-      <div className="avatar-share-button__content" >
-        <div className="share-06">
-        <div className="icon" ></div>
-        </div>
-      </div>
-    </div>
-    </div>
+      
     
+    
+    </div>
     <div className='link-section'>
        <a href="https://twitter.com/adewoyinaanuol1" id="links"><div className="frame5"><p className="text">Twitter Link</p></div></a>
        <a href="https://training.zuri.team/" id="btn__zuri" ><div className="frame5"><p className="text" >Zuri Team</p></div></a>
@@ -33,7 +32,6 @@ const stage1Tasks = () => {
        <a href="https://books.zuri.team/design-rules" id="book_design"><div className="frame5"><p className="text">Design Books</p></div></a>
       
     
-    </div>
     </div>
     </div>
     
