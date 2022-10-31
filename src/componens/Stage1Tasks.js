@@ -1,4 +1,4 @@
-// import Button from './Buttons';
+// import Button from './Buttons';btn__zuri
 
 
 const stage1Tasks = () => {
@@ -35,7 +35,7 @@ const stage1Tasks = () => {
     </div>
     </div>
     
-    <div className='Social-Section'>
+    <div className='social-section'>
       <div className='Container'>
         <div className='Content'>
           <div className='Social-icons'>
