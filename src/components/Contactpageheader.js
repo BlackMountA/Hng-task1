@@ -5,11 +5,12 @@ const Contactpageheader = () => {
   return (
       <div className='Contactpageheader'>
           <div className='container'>
+                  <div className='content1'>
               
                   <div className='content2'>
                       <Contactheading />
               <ContactForm />
-      
+        </div>
       </div>
       </div>
       </div>
