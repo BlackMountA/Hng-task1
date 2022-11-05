@@ -1,10 +1,10 @@
 import { useForm } from "react-hook-form"
 const ContactForm = () => {
     const name = 'Aanuoluwapo';
-    const { register, formState: { errors }, handleSubmit, reset } = useForm();
+    const { register, formState: { errors }, handleSubmit } = useForm();
     const onSubmit = (data) => {
         console.log(data);
-        reset();
+        
     }
     return (
       <form onSubmit={handleSubmit(onSubmit)}>
