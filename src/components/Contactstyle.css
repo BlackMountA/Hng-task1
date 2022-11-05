@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+<<<<<<< HEAD
 
 * {
   margin: 0;
@@ -18,13 +19,46 @@
   align-items: center;
 }
 
+=======
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: red;
+}
+.container {
+  background-color: purple;
+  width: 88%;
+  margin: 0 auto;
+}
+
+.content2 {
+  margin: 0 auto;
+  width: 50%;
+  background-color: yellow;
+}
+.contactheading {
+  background-color: blue;
+}
+>>>>>>> cb86b74 (feature: Jsx templates)
 .heading-text {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
+<<<<<<< HEAD
   letter-spacing: -0.02em;
+=======
+  /* identical to box height, or 122% */
+
+  letter-spacing: -0.02em;
+
+  /* Gray/900 */
+
+>>>>>>> cb86b74 (feature: Jsx templates)
   color: #101828;
 }
 .supporting-text {
@@ -33,6 +67,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
+<<<<<<< HEAD
   color: #475467;
 }
 
@@ -149,3 +184,11 @@ input::placeholder {
   border-radius: 8px;
   color: #ffffff;
 }
+=======
+  /* identical to box height, or 150% */
+
+  /* Gray/600 */
+
+  color: #475467;
+}
+>>>>>>> cb86b74 (feature: Jsx templates)
