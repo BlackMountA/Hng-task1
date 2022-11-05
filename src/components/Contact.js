@@ -1,9 +1,12 @@
+import Footer from './Footer';
+import Contactpageheader from './Contactpageheader';
+
 const Contact = () => {
     return (
       <div>
-      
-            <h1>contact</h1>
-            </div>
+        <Contactpageheader />
+        <Footer />
+      </div>
   )
 }
 
