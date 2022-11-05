@@ -1,10 +1,10 @@
 import { useForm } from "react-hook-form"
 const ContactForm = () => {
     const name = 'Aanuoluwapo';
-    const { register, formState: { errors }, handleSubmit } = useForm();
+    const { register, formState: { errors }, handleSubmit, reset } = useForm();
     const onSubmit = (data) => {
         console.log(data);
-        
+        reset();
     }
     return (
       <form onSubmit={handleSubmit(onSubmit)}>
@@ -39,11 +39,10 @@ const ContactForm = () => {
 
                 <div className='message'>
                     <label>Message</label>
-                    <textarea id='message' className={errors ? "date" : "invalid"} placeholder="Send me a message and I'll reply you as soon as possible"{...register('message', { required: "Please enter a message" })} />
-                     {errors.message && (
-                        <p className="error" >
-                        {errors.message.message}
-                    </p>)} 
+                    <textarea id='message'  placeholder="Send me a message and I'll reply you as soon as possible"{...register('message', { required: "Please enter a message" })} />
+                    {errors.message && (<p className="error" >
+                        {errors.message?.type === 'required' && ('Please enter a message')}
+                    </p>)}
                     
                 </div>
 

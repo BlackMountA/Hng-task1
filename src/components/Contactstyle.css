@@ -8,7 +8,6 @@
 .container {
   width: 88%;
   margin: 0 auto;
-  background-color: red;
 }
 
 .content2 {
@@ -129,12 +128,6 @@
   border-radius: 8px;
 }
 .error-box {
-  border: red 2px solid;
-}
-.date {
-  background-color: blue;
-}
-.invalid {
   border: red 2px solid;
 }
 #message::placeholder {
