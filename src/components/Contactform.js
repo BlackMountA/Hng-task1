@@ -1,8 +1,11 @@
 import { useForm } from "react-hook-form"
 const ContactForm = () => {
     const name = 'Aanuoluwapo';
-    const { register, formState: { errors }, handleSubmit } = useForm();
-    const onSubmit = (data) => console.log(data);
+    const { register, formState: { errors }, handleSubmit, reset } = useForm();
+    const onSubmit = (data) => {
+        console.log(data);
+        reset();
+    }
     return (
       <form onSubmit={handleSubmit(onSubmit)}>
             <div className='field'>
@@ -24,12 +27,11 @@ const ContactForm = () => {
                             {errors.lastname?.type === 'required' && 'Last name is required'}
                         </p>
                     </div>
-                    
                 </div>
 
-                <div className='email'>
+                <div className='email '>
                     <label> Email</label>
-                    <input type={'text'} id="email" placeholder='yourname@email.com'{...register('email', { required: true })}     />
+                    <input type={'text'} id="email" placeholder='yourname@email.com'{...register('email', { required: true, })}  />
                     <p className="error">
                         {errors.email?.type === 'required' && 'Email is required'}
                     </p>
@@ -37,10 +39,12 @@ const ContactForm = () => {
 
                 <div className='message'>
                     <label>Message</label>
-                    <textarea id='message' placeholder="Send me a message and I'll reply you as soon as possible"{...register('message', { required: true })} />  
-                    <p className="error">
-                        {errors.message?.type === 'required' && 'Please enter a message'}
-                    </p>
+                    <textarea id='message' className={errors ? "date" : "invalid"} placeholder="Send me a message and I'll reply you as soon as possible"{...register('message', { required: "Please enter a message" })} />
+                     {errors.message && (
+                        <p className="error" >
+                        {errors.message.message}
+                    </p>)} 
+                    
                 </div>
 
                 <div  className="checkbox">
@@ -54,7 +58,7 @@ const ContactForm = () => {
                     </p>
                 </div>     
             </div>
-            
+
             <button id='btn__submit'>Send Message</button>
         </form>
   )
