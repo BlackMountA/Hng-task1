@@ -1,0 +1,34 @@
+
+const Form = () => {
+    const name = 'Aanuoluwapo'
+  return (
+      <form>
+          <label> first name</label>
+          <input type={'text'} />
+              <label> last name</label>
+          <input type={'text'} />
+          <label> Email Address</label>
+          <input type={'email'} />
+          <label>Message</label>
+          <textarea id="message"></textarea>
+          <input type={'checkbox'} /> you agree to providing your data to {name} who may contact you
+          <button>Send Message</button>
+      </form>
+  )
+}
+
+export default Form
+
+const Contact__header = () => {
+  return (
+      <div>
+          <h1>Contact Me</h1>
+          <p> Hi there, Contact me to ask me about anything you have in mind</p>
+      </div>
+      
+  )
+}
+
+export default Contact__header
+
+
