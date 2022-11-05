@@ -44,13 +44,23 @@
   color: #475467;
   margin-bottom: 48px;
 }
-form {
-}
+.error {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
 
+  color: #f83f23;
+}
+.checkbox-container {
+  margin-bottom: 32px;
+}
 .name-row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   margin-bottom: 24px;
 }
 .input-field {
@@ -69,7 +79,6 @@ form {
   margin-bottom: 24px;
 }
 .checkbox {
-  margin-bottom: 32px;
   display: flex;
 }
 #btn__submit {
@@ -103,7 +112,16 @@ label {
   font-size: 14px;
   line-height: 20px;
   /* identical to box height, or 143% */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
 
+  /* Gray/500 */
+
+  color: #667085;
   /* Gray/700 */
 
   color: #344054;
@@ -112,7 +130,16 @@ label {
   height: 40px;
   background: #ffffff;
   /* Gray/300 */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
 
+  /* Gray/500 */
+
+  color: #667085;
   border: 1px solid #d0d5dd;
   /* Shadow/xs */
   padding: 10px 14px;
@@ -139,7 +166,16 @@ label {
 
   border: 1px solid #d0d5dd;
   /* Shadow/xs */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
 
+  /* Gray/500 */
+
+  color: #667085;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   border-radius: 8px;
 }
@@ -151,7 +187,16 @@ label {
 
   border: 1px solid #d0d5dd;
   /* Shadow/xs */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
 
+  /* Gray/500 */
+
+  color: #667085;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   border-radius: 8px;
 }
@@ -183,4 +228,11 @@ input::placeholder {
   /* Gray/500 */
 
   color: #667085;
+}
+input:focus {
+  outline: none;
+  /* border: none; */
+}
+#message:focus {
+  outline: none;
 }
