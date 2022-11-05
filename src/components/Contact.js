@@ -1,22 +1,10 @@
-import Footer from './Footer';
-import Heading from './Contactheading';
-import Form from './Contactform';
-import "./Contactstyle.css"
+import ContactForm from "./Contactform"
 
 const Contact = () => {
-  return (
-    <body>
-      <div className='contactpageheader'>
-        <div className='container'>
-          <div className='content2'>
-            <Heading />
-            <Form />
-          </div>
-          
-        </div>
+    return (
+      <div>
+        <ContactForm/>
       </div>
-       <Footer />
-    </body>
   )
 }
 
