@@ -39,6 +39,26 @@ body {
   width: 50%;
   background-color: yellow;
 }
+@media (max-width: 1000px) {
+  .content2 {
+    width: 60%;
+  }
+}
+@media (max-width: 800px) {
+  .content2 {
+    width: 70%;
+  }
+}
+@media (max-width: 600px) {
+  .content2 {
+    width: 80%;
+  }
+}
+@media (max-width: 470px) {
+  .content2 {
+    width: 90%;
+  }
+}
 .contactheading {
   background-color: blue;
 }
