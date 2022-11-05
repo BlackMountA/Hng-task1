@@ -4,19 +4,15 @@
   margin: 0;
   box-sizing: border-box;
 }
-body {
-  background-color: red;
-}
+
 .container {
-  background-color: purple;
   width: 88%;
   margin: 0 auto;
 }
 
 .content2 {
-  margin: 0 auto;
+  margin: 4rem auto;
   width: 50%;
-  background-color: yellow;
 }
 @media (max-width: 1000px) {
   .content2 {
@@ -38,21 +34,15 @@ body {
     width: 90%;
   }
 }
-.contactheading {
-  background-color: blue;
-}
+
 .heading-text {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
-  /* identical to box height, or 122% */
-
+  margin-bottom: 20px;
   letter-spacing: -0.02em;
-
-  /* Gray/900 */
-
   color: #101828;
 }
 .supporting-text {
@@ -61,9 +51,162 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
+  color: #475467;
+  margin-bottom: 48px;
+}
+
+/* FORM STYLING */
+
+.name-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 2 - 12px);
+}
+#first_name {
+  height: 40px;
+  background: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  border: 1px solid #d0d5dd;
+  padding: 10px 14px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+#last_name {
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  padding: 10px 14px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+#email {
+  height: 40px;
+  background: #ffffff;
+  padding: 10px 14px;
+  border: 1px solid #d0d5dd;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+#message {
+  height: 125px;
+  background: #ffffff;
+  padding: 10px 14px;
+  border: 1px solid #d0d5dd;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+.error-box {
+  border: red 2px solid;
+}
+#message::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+#message:focus {
+  outline: none;
+}
+.checkbox {
+  margin-bottom: 32px;
+}
+.checkbox-container {
+  display: flex;
+}
+.checkbox-container input {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
   /* identical to box height, or 150% */
 
-  /* Gray/600 */
+  /* Gray/500 */
 
-  color: #475467;
+  color: #667085;
+  /* Gray/700 */
+
+  color: #344054;
+}
+input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+input:focus {
+  outline: none;
+}
+
+/* BUTTON    STYLING */
+
+#btn__submit {
+  width: 100%;
+  padding: 12px 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #1570ef;
+  border: 1px solid #1570ef;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+.error {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f83f23;
 }
