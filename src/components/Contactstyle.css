@@ -1,25 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
-<<<<<<< HEAD
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container {
-  width: 88%;
-  margin: 4rem auto;
-}
-
-.content2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-=======
 * {
   padding: 0;
   margin: 0;
@@ -62,23 +41,18 @@ body {
 .contactheading {
   background-color: blue;
 }
->>>>>>> cb86b74 (feature: Jsx templates)
 .heading-text {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
-<<<<<<< HEAD
-  letter-spacing: -0.02em;
-=======
   /* identical to box height, or 122% */
 
   letter-spacing: -0.02em;
 
   /* Gray/900 */
 
->>>>>>> cb86b74 (feature: Jsx templates)
   color: #101828;
 }
 .supporting-text {
@@ -87,128 +61,9 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
-<<<<<<< HEAD
-  color: #475467;
-}
-
-form {
-  margin-top: 48px;
-}
-.name__row {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.name__row .input-field {
-  display: flex;
-  flex-direction: column;
-  width: calc(100% / 2 - 12px);
-}
-
-label {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
-  color: #344054;
-}
-
-input {
-  background: #ffffff;
-
-  height: 35px;
-
-  border: 1px solid #d0d5dd;
-  /* Shadow/xs */
-
-  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-  border-radius: 8px;
-  padding: 10px 14px;
-}
-@media (max-width: 430px) {
-  input {
-    padding: 0;
-  }
-}
-input::placeholder {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #667085;
-}
-
-.email {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 50px;
-}
-
-.message {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 24px;
-}
-#message {
-  background: #ffffff;
-  /* Gray/300 */
-
-  border: 1px solid #d0d5dd;
-
-  height: 132px;
-  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-  border-radius: 8px;
-  padding: 10px 14px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #667085;
-}
-.checkbox {
-  margin-bottom: 32px;
-  display: flex;
-  gap: 12px;
-}
-.checkbox p {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #475467;
-}
-.checkbox input {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  border: 1px solid #d0d5dd;
-  border-radius: 6px;
-}
-
-#btn__submit {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  width: 100%;
-  background: #1570ef;
-  border: 1px solid #1570ef;
-  height: 48px;
-  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-  border-radius: 8px;
-  color: #ffffff;
-}
-=======
   /* identical to box height, or 150% */
 
   /* Gray/600 */
 
   color: #475467;
 }
->>>>>>> cb86b74 (feature: Jsx templates)
