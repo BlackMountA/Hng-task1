@@ -25,7 +25,9 @@ const stage1Tasks = () => {
             <a href="https://books.zuri.team" id="books"><div className="frame5"><p className="text">Zuri Books</p></div></a>
             <a href="https://training.zuri.team/python-for-beginners?ref_id=<@adewoyinaanuoluwapo>" id="book__python" ><div className="frame5"><p className="text">Python Books</p></div></a>
             <a href="https://background.zuri.team" id="pitch"><div className="frame5"><p className="text">Background Check Coder</p></div></a>
-            <a href="https://books.zuri.team/design-rules" id="book_design"><div className="frame5"><p className="text">Design Books</p></div></a>
+          <a href="https://books.zuri.team/design-rules" id="book_design"><div className="frame5"><p className="text">Design Books</p></div></a>
+            <a href="/contact" id="contact"><div className="frame5"><p className="text">Contact Me</p></div></a>
+          
         </section>
      </section>
     

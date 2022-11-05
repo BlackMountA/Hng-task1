@@ -7,7 +7,8 @@ const Footer = () => {
       <div className="footer__container">
         <img src={zuriLogo} id ="board-name" alt="Zuri-Internship Logo" />
         <p  id="footer__text" >HNG Internship 9 Frontend Task</p>
-        <img src={IG4}  alt='IG4 Logo'/>
+        <img src={IG4} alt='IG4 Logo' />
+        
       </div>
     </footer>
   )

@@ -1,17 +1,24 @@
 
+
+import './Style.css';
+
 import Footer from './components/Footer';
 import Stage1Tasks from './components/Stage1Tasks';
-import './Style.css';
 
 function App() {
   
   return (
-    <body>
+      
+      <body>
+        
       <section className="stage1tasks"> 
         <Stage1Tasks />
-      </section>
+        </section>
+        
       <Footer />
-    </body>
+      </body>
+     
+      
   );
 }
 
