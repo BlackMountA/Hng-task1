@@ -2,12 +2,12 @@ import './Contactstyle.css'
 
 const Contactheading = () => {
   return (
-      <div className='contactheading'>
+      <div>
           <p className='heading-text'>
-              Contact Me
+            Contact Me
           </p>
           <p className='supporting-text'>
-              Hi there, contact me to ask about anything you have in mind
+            Hi there, contact me to ask about anything you have in mind
           </p>
       </div>
   )
